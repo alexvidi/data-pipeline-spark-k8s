@@ -1,0 +1,9 @@
+
+services:
+  spark:
+    build: ./docker
+    ports:
+      - "8888:8888"  # Port for Jupyter Notebook
+      - "4040:4040"  # Port for Spark UI
+    volumes:
+      - ./src:/app
