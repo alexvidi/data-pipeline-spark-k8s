@@ -1,0 +1,19 @@
+# General
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual Environments
+venv/
+.venv/
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Kubernetes
+k8s/*.yaml
